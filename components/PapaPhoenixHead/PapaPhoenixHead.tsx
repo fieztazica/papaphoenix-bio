@@ -5,7 +5,7 @@ function PapaPhoenixHead() {
     const [isSShowHiddenText, setIsSShowHiddenText] = useState(false)
     return (
         <div
-            className="w-64 min-h-64 flex justify-center items-center cursor-pointer transition-colors"
+            className="w-64 min-h-64 flex justify-center items-center cursor-pointer transition-colors select-none"
             onClick={() => setIsSShowHiddenText((value) => !value)}
         >
             {!isSShowHiddenText ? (
